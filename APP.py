@@ -10,9 +10,9 @@ import joblib
 from sklearn.preprocessing import StandardScaler
 
 # Load the trained model, scaler, and feature names
-gb_model = joblib.load("gb.pkl")
-scaler = joblib.load("scaler0.pkl")
-feature_names = joblib.load("feature_names.pkl")
+gb_model = joblib.load("gb (1).pkl")
+scaler = joblib.load("scaler (1).pkl")
+feature_names = joblib.load("feature_names (3).pkl")
 
 # Define state and area codes
 all_states = ['AK', 'AL', 'AR', 'AZ', 'CA', 'CO', 'CT', 'DC', 'DE', 'FL', 'GA', 'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 'LA', 'MA', 'MD', 'ME', 'MI', 'MN', 'MO', 'MS', 'MT', 'NC', 'ND', 'NE', 'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'VT', 'WA', 'WI', 'WV', 'WY']
