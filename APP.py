@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 import streamlit as st
 import pandas as pd
 import joblib
@@ -119,10 +113,3 @@ if st.button("🚀 Predict Churn"):
         st.error(f"⚠️ This customer is likely to churn! (Probability: {probability:.2%})")
     else:
         st.success(f"✅ This customer is unlikely to churn. (Probability: {probability:.2%})")
-
-
-# In[ ]:
-
-
-
-
